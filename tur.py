@@ -1,0 +1,27 @@
+from turtle import *
+left(90)
+penup()
+forward(10*30)
+pendown()
+forward(1*30)
+right(90)
+forward(2*30)
+right(90)
+forward(11*30)
+right(90)
+forward(1*30)
+right(90)
+forward(10*30)
+left(90)
+forward(1*30)
+circle(100,360,20)
+left(90)
+forward(50)
+circle(100,360,50)
+penup()
+
+for x in range(-1,10):
+    for y in range(-15,15):
+        setpos(x*30,y*30)
+        dot(3,'red')
+input()
