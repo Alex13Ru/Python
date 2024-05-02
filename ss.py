@@ -15,7 +15,7 @@ def ss(n,s):
                b=k+b
           n=n//s
         return str(n)+b
-n=757
-s=16
-r=ss(n,s)
-print (r)
+#n=1000
+#s=8
+#r=ss(n,s)
+#print (r)
