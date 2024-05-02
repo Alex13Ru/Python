@@ -7,15 +7,15 @@ def ss(n,s):
         while n>=s:
           k=str(n%s)
           if int(k)>=10:
-             y=str(a[int(k)-10])
-             b=y+b
+             b=str(a[int(k)-10])+b
+             #b=y+b
 
 
           else:
                b=k+b
           n=n//s
         return str(n)+b
-#n=77777
-#s=16
-#r=ss(n,s)
-#print (r)
+n=757
+s=16
+r=ss(n,s)
+print (r)
