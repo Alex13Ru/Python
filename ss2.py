@@ -6,11 +6,11 @@ def ss2(n,s):
         if int(a[i])>=s:
             return print('Цифры в числе не могут быть >=', s)
         else:
-          k=k-1
+          #k=k-1
        #x=int(a[i])
         #y=x*s**k
 
-          r1=r1+int(a[i])*s**k
+          r1=r1+int(a[i])*s**(k-1)
         #r1=r1+y
     return r1
 s=int(input('Введите систему счисления '))
